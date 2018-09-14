@@ -45,14 +45,13 @@
 }
 
 .submenu{
-  display: block;
   position: absolute;
   right: 0px;
   top: 60px;
   border-radius: 20px;
-  background: $color2;
+  background: lighten($color2, 5%);
   list-style-type: none;
-  box-shadow: darken($color2, 10%) 1px 5px 0 1px;
+  box-shadow: $color2 1px 5px 0 1px;
   z-index: 1000;
   &:after{
     content: "";
