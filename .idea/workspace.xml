@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6517b0c0-c7eb-4704-9e2d-cbfea16d4219" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/scss/partials/_about.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/style.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.min.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/partials/_about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/partials/_about.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -72,16 +71,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="2009" />
+          <entry key="html" value="2985" />
           <entry key="js" value="1056" />
-          <entry key="scss" value="6333" />
+          <entry key="scss" value="8245" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="2009" />
+          <entry key="HTML" value="2985" />
           <entry key="JavaScript" value="1056" />
-          <entry key="SCSS" value="6333" />
+          <entry key="SCSS" value="8245" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -125,8 +124,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scss/partials/_header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+            <state relative-caret-position="456">
+              <caret line="84" column="3" lean-forward="true" selection-start-line="76" selection-start-column="2" selection-end-line="84" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -134,8 +133,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dist/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="205" column="57" selection-start-line="205" selection-start-column="57" selection-end-line="205" selection-end-column="57" />
+            <state relative-caret-position="131">
+              <caret line="296" column="30" selection-start-line="296" selection-start-column="30" selection-end-line="296" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -143,8 +142,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/scss/partials/_about.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="117" column="26" selection-start-line="117" selection-start-column="26" selection-end-line="117" selection-end-column="26" />
+            <state relative-caret-position="245">
+              <caret line="271" column="3" selection-start-line="271" selection-start-column="3" selection-end-line="271" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -176,6 +175,15 @@
       <find>opacity</find>
       <find>opaci</find>
       <find>$color2</find>
+      <find>$red</find>
+      <find>$green</find>
+      <find>$gre</find>
+      <find>.score</find>
+      <find>$wrapper-bg</find>
+      <find>$body-</find>
+      <find>$pie_wi</find>
+      <find>inline</find>
+      <find>bor</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -304,12 +312,12 @@
       <workItem from="1536859139864" duration="993000" />
       <workItem from="1536861380134" duration="7235000" />
       <workItem from="1536928703486" duration="3881000" />
-      <workItem from="1537086502256" duration="9678000" />
+      <workItem from="1537086502256" duration="18231000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36676000" />
+    <option name="totallyTimeSpent" value="45229000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -492,22 +500,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/partials/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        <state relative-caret-position="456">
+          <caret line="84" column="3" lean-forward="true" selection-start-line="76" selection-start-column="2" selection-end-line="84" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="205" column="57" selection-start-line="205" selection-start-column="57" selection-end-line="205" selection-end-column="57" />
+        <state relative-caret-position="131">
+          <caret line="296" column="30" selection-start-line="296" selection-start-column="30" selection-end-line="296" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/partials/_about.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="117" column="26" selection-start-line="117" selection-start-column="26" selection-end-line="117" selection-end-column="26" />
+        <state relative-caret-position="245">
+          <caret line="271" column="3" selection-start-line="271" selection-start-column="3" selection-end-line="271" selection-end-column="3" />
         </state>
       </provider>
     </entry>

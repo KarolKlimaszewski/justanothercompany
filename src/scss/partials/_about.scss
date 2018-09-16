@@ -127,3 +127,173 @@
   position: absolute;
   margin: 15px 0;
 }
+
+.about-whyUs{
+  margin-top: 40px;
+  width: 100%;
+}
+
+.about-whyUs__title{
+  color: gray;
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom: 1em;
+}
+
+.about-whyUs__list{
+  list-style-type: none;
+  padding: 0;
+  color: darkgray;
+}
+
+.about-whyUs__list-item{
+  i:first-child{
+    color: $color2;
+    padding-right: 0.5em;
+  }
+}
+
+.about-skills{
+  margin-top: 40px;
+}
+
+.about-skills__description{
+  color: gray;
+  font-size: 0.8em;
+}
+
+.about-skills__link{
+  color: $color2;
+  text-decoration: underline;
+  &:hover{
+    text-decoration: none;
+    color: $color1;
+  }
+}
+
+//CHARTS
+
+.about-skills__charts{
+  display: flex;
+}
+
+$pie_width: 120px;
+$pie_height: $pie_width /2;
+
+.chart-container{
+  display: block;
+  margin: 3em 0.5em;
+
+  .label-text{
+    display: block;
+    text-align: center;
+    font-size: 1.3em;
+    color: gray;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+}
+
+.pie-wrapper{
+  position: relative;
+  width: $pie_width;
+  height: $pie_height;
+  overflow:hidden;
+
+  .arc, &:before{
+    content: '';
+    width: $pie_width;
+    height: $pie_height;
+    position: absolute;
+    transform-origin: 50% 0;
+    left: 0;
+    box-sizing: border-box;
+  }
+
+  &:before{
+    border: 17px solid $color1;
+    border-bottom: none;
+    top: 0;
+    z-index: 1;
+    border-radius: 1000px 1000px 0 0;
+  }
+
+  .arc{
+    border: 17px solid $color2;
+    border-top: none;
+    border-radius: 0 0 1000px 1000px;
+    top: 100%;
+    z-index: 2;
+  }
+
+  .score{
+    color: gray;
+    font-size: 2.3em;
+    display: block;
+    width: $pie-width;
+    text-align: center;
+    margin-top: ($pie-height/3.5);
+    font-weight: 900;
+  }
+}
+
+@for $i from 1 through 100 {
+  .arc[data-value="#{$i}"]{
+    animation: fill 2s;
+    transform: rotate(#{$i * 1.8}deg);
+    transition:All 5s ease;
+    border-color: $color2;
+
+    &:after{
+      content: '';
+      position: absolute;
+      left:  -40px;
+      top: 5px;
+    }
+
+  }
+}
+
+@keyframes fill {
+  0%{
+    transform: rotate(0deg);
+    border-color: $color1;
+  }
+  50%{
+    transform: rotate(180deg);
+    border-color: $color2;
+  }
+}
+
+.about-opinions{
+  width: 100%;
+  @media #{$large} {
+    margin-top: 40px;
+  }
+}
+
+.about-opinions__text{
+  font-size: 1em;
+  font-style: italic;
+  color: gray;
+  padding: 5px 20px;
+  background: white;
+  border-radius: 10px;
+  position: relative;
+  &:after{
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    border-left: 20px solid transparent;
+    border-top: 20px solid white;
+  }
+}
+
+.about-opinions__author{
+  font-size: 1.5em;
+  font-weight: 700;
+  text-align: end;
+  color: gray;
+
+}
