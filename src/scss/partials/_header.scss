@@ -1,6 +1,7 @@
 .page-header{
   background: $color1;
   padding: 5px 0;
+  margin: 0;
   .container{
     display: flex;
     justify-content: space-between;
@@ -17,9 +18,28 @@
 }
 
 .page-nav-list{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: none;
+  @media #{$large} {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.open{
+  display: block;
+}
+
+.page-nav__button{
+  border: none;
+  background: lighten($color2, 5%);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 3em;
+  @media #{$large} {
+    display: none;
+  }
 }
 
 .page-nav-list__item {
@@ -45,6 +65,7 @@
 }
 
 .submenu{
+  display: none;
   position: absolute;
   right: 0px;
   top: 60px;

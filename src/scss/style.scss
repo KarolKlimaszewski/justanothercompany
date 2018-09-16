@@ -1,9 +1,12 @@
 @import "variables";
 @import "partials/normalize";
 
+@import 'bootstrap/bootstrap';
+
 @import "partials/header";
 @import "partials/slider";
 @import "partials/intro";
+@import "partials/services";
 
 * {
   box-sizing: border-box;
@@ -18,5 +21,6 @@
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
+  background: #eeeeee;
 }
 

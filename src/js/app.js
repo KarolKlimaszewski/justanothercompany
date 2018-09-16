@@ -1,13 +1,20 @@
 $(function () {
     let submenu = $('.submenu');
-    let menu = $('.page-nav-list__item').eq(2);
-    submenu.hide();
+    let submenuList = $('.page-nav-list__item').eq(2);
+    let menu = $('.page-nav-list');
 
-    menu.on('mouseover', function (e) {
+    submenuList.on('mouseover', function (e) {
         submenu.show();
     })
-    menu.on('mouseout', function (e) {
+    submenuList.on('mouseout', function (e) {
         submenu.hide();
+    })
+
+    let menuBurger = $('.page-nav__button');
+
+    menuBurger.on('click', function (e) {
+        e.preventDefault();
+        menu.toggleClass("open");
     })
 
     let leftButton = $('.slider__prev');
