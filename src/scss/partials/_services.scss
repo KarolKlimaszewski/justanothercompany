@@ -1,0 +1,52 @@
+.services{
+  text-align: center;
+  margin-top: 40px;
+}
+
+.services-element{
+  position: relative;
+  border-radius: 20px;
+  box-shadow: lightgray 0 3px 0 0;
+  margin: 10px;
+  background: lighten(#eeeeee, 2%);
+  &:hover{
+    background: white;
+  }
+}
+
+.services__icon{
+  font-size: 3.5em;
+  color: $color1;
+  &:hover{
+    color: $color2;
+  }
+}
+
+.services__title{
+  font-weight: 700;
+  color: gray;
+  margin: 1em 0 1.5em 0;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+.services__description{
+  color: gray;
+  font-size: 0.9em;
+  padding: 1em 0 2em 0;
+}
+
+.services__view-more{
+  border: none;
+  background: lighten($color1, 5%);
+  color: white;
+  padding: 5px 30px;
+  border-radius: 10px;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  box-shadow: $color1 1px 3px 0 1px;
+  &:hover{
+    background: lighten($color2, 5%);
+    box-shadow: $color2 1px 3px 0 1px;
+  }
+}

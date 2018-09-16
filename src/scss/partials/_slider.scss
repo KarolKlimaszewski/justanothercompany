@@ -1,8 +1,10 @@
 .slider{
-  height: 50vh;
   width: 100%;
   background: #7f8c8c;
   position: relative;
+  @media #{$large} {
+    height: 50vh;
+  }
 }
 
 .slider-list{
@@ -50,6 +52,8 @@
 }
 
 .slider-list__title{
+  margin-top: 0.6em;
+  text-align: center;
   font-size: 3em;
   background: lighten($color2, 5%);
   color: white;
