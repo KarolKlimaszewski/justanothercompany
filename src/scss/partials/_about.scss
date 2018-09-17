@@ -174,7 +174,9 @@
 //CHARTS
 
 .about-skills__charts{
-  display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 $pie_width: 120px;
@@ -182,7 +184,7 @@ $pie_height: $pie_width /2;
 
 .chart-container{
   display: block;
-  margin: 3em 0.5em;
+  margin: 1em 0.3em;
 
   .label-text{
     display: block;
@@ -284,7 +286,7 @@ $pie_height: $pie_width /2;
     content: "";
     position: absolute;
     bottom: -20px;
-    left: 50%;
+    left: 80%;
     border-left: 20px solid transparent;
     border-top: 20px solid white;
   }
@@ -295,5 +297,4 @@ $pie_height: $pie_width /2;
   font-weight: 700;
   text-align: end;
   color: gray;
-
 }

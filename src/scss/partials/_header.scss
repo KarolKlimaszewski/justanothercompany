@@ -11,9 +11,13 @@
 
 .page-logo{
   margin: 0;
-  a{
+  font-weight: 700;
+  .page-logo__link{
     text-decoration: none;
     color: white;
+    .page-logo__link--part{
+      font-size: 0.7em;
+    }
   }
 }
 
